@@ -1,0 +1,1 @@
+{"name":"camelwords-functions","private":true,"main":"lib/functions/src/index.js","engines":{"node":"22"},"scripts":{"build":"tsc"},"dependencies":{"firebase-admin":"^13.0.0","firebase-functions":"^6.0.0","ts-fsrs":"5.4.2"},"devDependencies":{"typescript":"~6.0.3","@types/node":"^22.0.0"}}

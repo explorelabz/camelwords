@@ -1,0 +1,7 @@
+rules_version = '2';
+service firebase.storage {
+ match /b/{bucket}/o {
+  match /content/{packageId}/{version}/{file=**} { allow read: if true; allow write: if false; }
+  match /{file=**} { allow read, write: if false; }
+ }
+}
